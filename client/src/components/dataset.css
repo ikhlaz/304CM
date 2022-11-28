@@ -1,0 +1,81 @@
+ul {
+  padding:0;
+  list-style:none;
+  width: 30%;
+  margin:auto;
+}
+
+li{
+  font-size:1.2rem;
+  line-height: 2rem;
+  border-bottom: 1px dotted #777;
+}
+
+.container {
+  position: relative;
+  width: 64%;
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+}
+
+#box {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+}
+
+#table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+}
+
+#txtbox-city {
+  flex-grow: 1;
+  margin: 5px;
+}
+
+#btn-search {
+  margin: 5px;
+  width: 100px;
+}
+
+#btn-upload {
+  margin: 5px;
+  width: 100%;
+}
+
+.disable-select {
+  user-select: none; 
+ -webkit-user-select: none; 
+ -khtml-user-select: none; 
+ -moz-user-select: none; 
+ -ms-user-select: none; 
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  margin: 5px;
+  border:1px solid black;
+}
+
+#th-city {
+  width: 30%;
+}
+
+#th-date {
+  width: 15%;
+}
+
+#th-time {
+  width: 8%;
+}
